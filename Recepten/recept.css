@@ -1,0 +1,87 @@
+ul {
+    list-style-type: none;
+    margin: 40;
+    padding: 0;
+    overflow: hidden;
+  background: rgba(0,0,0,0.3);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: lightgreen;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+ul :hover {
+    background-color: white;
+}
+
+body {
+    background-image: url(achtergrond.jpg);
+}
+
+h1 {
+    color: black;
+    font-family: "Comic sans MS";
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 230px;
+    margin-top: 50px;
+
+}
+
+div.recept {
+    color: black;
+    font-family: Verdana
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 110px;
+
+}
+
+div.maken {
+
+    font-size: 21px;
+    text-align: center;
+    font-family: Verdana;
+     margin-left: 50px;
+     color: black;
+}
+
+div.ingredienten {
+    color: black;
+    font-family: Verdana
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 150px;
+
+}
+
+img.tortilla {
+     float: right;
+    border-style: solid;
+    border-color: lightgreen;
+    margin-right: 250px;
+    margin-top: 80px;
+}
+
+img.ei {
+     float: left;
+    border-style: solid;
+    border-color: lightgreen;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 250px;
+}
